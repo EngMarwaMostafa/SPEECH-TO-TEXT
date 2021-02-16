@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5">
+
+    <ProgressBar
+        android:id="@+id/splash_activity_pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/splash_activity_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPEECH TO TEXT"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+       android:layout_marginTop="@dimen/dp400h"
+       android:layout_marginRight="@dimen/dp20w"
+        android:textSize="@dimen/sp20"/>
+
+    <ImageView
+        android:id="@+id/splash_activity_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/splash_activity_tv"
+        android:layout_marginBottom="@dimen/dp110h"
+        android:layout_marginRight="@dimen/dp20w"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/mic"/>
+
+    <Button
+        android:id="@+id/splash_activity_btn"
+        android:layout_width="@dimen/dp150w"
+        android:layout_height="@dimen/dp50h"
+        android:text="Get Started"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dp80h"
+        android:layout_marginLeft="@dimen/dp150w"
+        android:background="@drawable/roundbutton"
+        android:textSize="@dimen/sp15"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
